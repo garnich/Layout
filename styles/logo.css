@@ -1,0 +1,38 @@
+#myLogo{
+    animation: fill-anim 0.5s easer forwards;
+}
+#myLogo path:nth-child(2){
+    stroke-dasharray: 478;
+    stroke-dashoffset: 478;
+    animation: line-anim 3s ease forwards;
+    -webkit-animation: line-anim 3s ease forwards;
+}
+#myLogo path:nth-child(3){
+    stroke-dasharray: 403;
+    stroke-dashoffset: 403;
+    animation: line-anim 3s ease forwards 0.3s;
+}
+#myLogo path:nth-child(4){
+    stroke-dasharray: 669;
+    stroke-dashoffset: 669;
+    animation: line-anim 3s ease forwards 0.6s;
+}
+#myLogo path:nth-child(5){
+    stroke-dasharray: 403;
+    stroke-dashoffset: 403;
+    animation: line-anim 3s ease forwards 0.9s;
+}
+
+@keyframes line-anim{
+    to{
+    stroke-dashoffset: 0;        
+    }
+}
+@keyframes fill-anim{
+    from{
+        fill: transparent;    
+    }
+    to{
+        fill: #ffffff;
+    }
+}
