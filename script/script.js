@@ -9,3 +9,10 @@ window.onscroll = function() {
         document.querySelector('.topButton').classList.add('hide');
     };
 }
+
+document.querySelector('.menu__icon').addEventListener('click', function(e) {
+    e.preventDefault;
+    document.querySelector('.menu__icon').classList.toggle('menu_state_open');
+    document.querySelector('nav').classList.toggle('show');
+    console.log(document.querySelector('nav ul'))
+  });
