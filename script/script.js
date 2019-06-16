@@ -10,3 +10,10 @@ document.querySelector('.header__menu-icon').addEventListener('click', function(
     document.querySelector('.header__menu-icon').classList.toggle('header__menu-icon__open');
     document.querySelector('.header__navigation').classList.toggle('show');
 });
+
+document.querySelector('.header__navigation-menu').addEventListener('click', function(e) {
+    e.preventDefault;
+    if (e.target.tagName == 'LI') {
+        e.target.childNodes[0].click();
+    }
+  });
