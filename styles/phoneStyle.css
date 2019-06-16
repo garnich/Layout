@@ -3,120 +3,113 @@
  
 /* ------------- header section ---------------- */
 
-    header {
-        justify-content: center;
-        flex-direction: column;
-        height: 100%;
-    }
-    #myLogo {
-        margin: 5px 0px;
-    }
-    nav {
-      display: none;
-      width: 100%;
-    }
-    nav ul {
-      text-align: center;
-      margin: 5px auto;
-    }
-    nav li {
-      display: inline-block;
-      width: 100%;
-      color: #ffffff;
-      list-style: none;
-      border: 1px solid #ffffff;
-      padding: 5px 0;
-    }
-    nav li a {
-      font-size: 20px;
-    }
-/* ------------- header menu button ---------------- */
-  
-    .menu__icon {
-      width: 45px;
-      height: 32px;
-      position: absolute;
-      cursor: pointer;
-      top:20px;
-      right: 10px;
-   }
-   
-   .menu__icon span {
-     display: block;
-     position: absolute;
-     height: 6px;
-     width: 100%;
-     background: #ffffff;
-     border-radius: 6px;
-     opacity: 1;
-     left: 0;
-     transform: rotate(0deg);
-     transition: .25s ease-in-out;
+  .header {
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
   }
-   
-   .menu__icon span:nth-child(1) {
-     top: 0px;
-   }
-   
-   .menu__icon span:nth-child(2), .menu__icon span:nth-child(3) {
-     top: 13px;
-   }
-   
-   .menu__icon span:nth-child(4) {
-     top: 26px;
-    }
-  
-  
-  .menu_state_open span:nth-child(1) {
-      top: 18px;
-      width: 0%;
-      left: 50%;
-    }
-    
-    .menu_state_open span:nth-child(2) {
-      transform: rotate(45deg);
-    }
-    
-    .menu_state_open span:nth-child(3) {
-      transform: rotate(-45deg);
-    }
-    
-    .menu_state_open span:nth-child(4) {
-      top: 18px;
-      width: 0%;
-      left: 50%;
-    }
+  .header__logo {
+    margin: 5px 0px;
+  }
+  .header__navigation {
+    display: none;
+    width: 100%;
+  }
+  .header__navigation-menu {
+    text-align: center;
+    margin: 5px auto;
+  }
+  .header__navigation-menu li {
+    display: inline-block;
+    width: 100%;
+    color: #ffffff;
+    list-style: none;
+    border: 1px solid #ffffff;
+    padding: 5px 0;
+  }
+  .header__navigation-menu a {
+    font-size: 20px;
+  }
 
-    .show{
-        display: block;
-      }
+/* -------------  menu button ---------------- */
+  
+  .header__menu-icon {
+    width: 45px;
+    height: 32px;
+    position: absolute;
+    cursor: pointer;
+    top:20px;
+    right: 10px;
+  }   
+  .header__menu-icon span {
+    display: block;
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 6px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+  }   
+  .header__menu-icon span:nth-child(1) {
+    top: 0px;
+  }   
+  .header__menu-icon span:nth-child(2), .header__menu-icon span:nth-child(3) {
+    top: 13px;
+  }   
+  .header__menu-icon span:nth-child(4) {
+    top: 26px;
+  }  
+  .header__menu-icon__open span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+  }    
+  .header__menu-icon__open span:nth-child(2) {
+    transform: rotate(45deg);
+  }  
+  .header__menu-icon__open span:nth-child(3) {
+    transform: rotate(-45deg);
+  }    
+  .header__menu-icon__open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+  }
+  .show{
+    display: block;
+  }
+
 /* ------------- main section ---------------- */
   
-    main {
-        min-height: calc(100vh - 40px - 74px);
-    }
-    .content img {
-      display: none;
-    }
-    .content section p {
-      font-size: 14px;
-      margin: 0 10px ;
-    }
+  .main {
+    min-height: calc(100vh - 40px - 74px);
+  }
+  .main-content__image {
+    display: none;
+  }
+  .main-content__text {
+    font-size: 14px;
+    margin: 0 10px ;
+  }
+
 /* ------------- aside section ---------------- */
 
-aside {
+  .aside {
     display: none;
-}
-.topButton {
+  }
+  .button-top {
     display: none;
-}
+  }
+
 /* ------------- footer section ---------------- */
 
-    footer{
-      font-size: 14px;
-      height: 40px;
-      line-height: 40px;
-    }
-    
+  .footer{
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+  }    
 }
    

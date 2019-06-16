@@ -1,18 +1,12 @@
+let button = document.querySelector('.button-top').classList;
 window.onscroll = function() {
     let scrolled = window.pageYOffset || document.documentElement.scrollTop;
 
-    if (scrolled >= 450) {
-        document.querySelector('.topButton').classList.remove('hide');
-    };
-
-    if (scrolled < 450) {
-        document.querySelector('.topButton').classList.add('hide');
-    };
+    return (scrolled >= 450) ? button.remove('hide') : button.add('hide');
 }
 
-document.querySelector('.menu__icon').addEventListener('click', function(e) {
+document.querySelector('.header__menu-icon').addEventListener('click', function(e) {
     e.preventDefault;
-    document.querySelector('.menu__icon').classList.toggle('menu_state_open');
-    document.querySelector('nav').classList.toggle('show');
-    console.log(document.querySelector('nav ul'))
-  });
+    document.querySelector('.header__menu-icon').classList.toggle('header__menu-icon__open');
+    document.querySelector('.header__navigation').classList.toggle('show');
+});

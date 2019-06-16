@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="./styles/phoneStyle.css">
     <link rel="stylesheet" href="./styles/tabletStyle.css">
     <link rel="stylesheet" href="./styles/desktopStyle.css">
-
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles/logo.css">
     <title>Document</title>
 </head>
 <body>
     <a name="top"></a>
-    <header>
-        <svg version="1.1" id="myLogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="width: 64px; height:64px; opacity: 1;" xml:space="preserve">
+    <header class="header">
+        <svg version="1.1" class="header__logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="width: 64px; height:64px; opacity: 1;" xml:space="preserve">
             <style type="text/css">.st0{fill:#374149;}</style>
             <g>
                 <path class="st0" d="M256,0C114.614,0,0,114.617,0,256c0,141.386,114.614,256,256,256s256-114.614,256-256
@@ -45,14 +45,14 @@
                     V198.914z" style="fill: rgb(255, 255, 255);"></path>
             </g>
         </svg>           
-        <div class="menu__icon">
+        <div class="header__menu-icon">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
         </div>    
-        <nav>
-            <ul>
+        <nav class="header__navigation">
+            <ul class="header__navigation-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#sections">Sections</a></li>
                 <li><a href="#contacts">Contacts</a></li>
@@ -61,98 +61,105 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <div class="content">
-            <section>
+    <main class="main">
+        <div class="main-content">
+            <section class="main-content__item">
                 <a name="home"></a>
-                <h1>Home</h1>
-                <img src="./images/rawfilm.jpg" alt="image" >
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
+                <h1 class="main-content__title">Home</h1>
+                <img class="main-content__image" src="./images/rawfilm.jpg" alt="image" >
+                <p class="main-content__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
                     voluptatibus impedit asperiores harum, accusamus omnis nostrum veritatis dignissimos 
                     officiis labore minima iure officia quisquam a. Deserunt, molestiae vitae dignissimos 
                     eius beatae placeat, alias quod, doloremque dolorum eveniet rerum dolore dolores. 
                     Repellendus sint quo provident sequi velit, debitis, nulla inventore laboriosam voluptas 
                     aliquid repellat magni ab rerum, optio tenetur quam nesciunt non ad ut maiores consequuntur id? Modi!</p>
             </section>
-            <section>
+            <section class="main-content__item">
                 <a name="sections"></a>
-                <h1>Sections</h1>
-                <img src="./images/rawfilm.jpg" alt="image" />
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
+                <h1 class="main-content__title">Sections</h1>
+                <img class="main-content__image" src="./images/rawfilm.jpg" alt="image" >
+                <p class="main-content__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
                     voluptatibus impedit asperiores harum, accusamus omnis nostrum veritatis dignissimos 
                     officiis labore minima iure officia quisquam a. Deserunt, molestiae vitae dignissimos 
                     eius beatae placeat, alias quod, doloremque dolorum eveniet rerum dolore dolores. 
                     Repellendus sint quo provident sequi velit, debitis, nulla inventore laboriosam voluptas 
                     aliquid repellat magni ab rerum, optio tenetur quam nesciunt non ad ut maiores consequuntur id? Modi!</p>
             </section>
-            <section>
+            <section class="main-content__item">
                 <a name="contacts"></a>
-                <h1>Contacts</h1>
-                <img src="./images/rawfilm.jpg" alt="image" >
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
+                <h1 class="main-content__title">Contacts</h1>
+                <img class="main-content__image" src="./images/rawfilm.jpg" alt="image" >
+                <p class="main-content__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
                     voluptatibus impedit asperiores harum, accusamus omnis nostrum veritatis dignissimos 
                     officiis labore minima iure officia quisquam a. Deserunt, molestiae vitae dignissimos 
                     eius beatae placeat, alias quod, doloremque dolorum eveniet rerum dolore dolores. 
                     Repellendus sint quo provident sequi velit, debitis, nulla inventore laboriosam voluptas 
                     aliquid repellat magni ab rerum, optio tenetur quam nesciunt non ad ut maiores consequuntur id? Modi!</p>
             </section>
-            <section>
+            <section class="main-content__item">
                 <a name="info"></a>
-                <h1>Info</h1>
-                <img src="./images/rawfilm.jpg" alt="image" >
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
+                <h1 class="main-content__title">Info</h1>
+                <img class="main-content__image" src="./images/rawfilm.jpg" alt="image" >
+                <p class="main-content__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
                     voluptatibus impedit asperiores harum, accusamus omnis nostrum veritatis dignissimos 
                     officiis labore minima iure officia quisquam a. Deserunt, molestiae vitae dignissimos 
                     eius beatae placeat, alias quod, doloremque dolorum eveniet rerum dolore dolores. 
                     Repellendus sint quo provident sequi velit, debitis, nulla inventore laboriosam voluptas 
                     aliquid repellat magni ab rerum, optio tenetur quam nesciunt non ad ut maiores consequuntur id? Modi!</p>
             </section>
-            <section>
+            <section class="main-content__item">
                 <a name="about"></a>
-                <h1>About</h1>
-                <img src="./images/rawfilm.jpg" alt="image" >
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
+                <h1 class="main-content__title">About</h1>
+                <img class="main-content__image" src="./images/rawfilm.jpg" alt="image" >
+                <p class="main-content__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
                     voluptatibus impedit asperiores harum, accusamus omnis nostrum veritatis dignissimos 
                     officiis labore minima iure officia quisquam a. Deserunt, molestiae vitae dignissimos 
                     eius beatae placeat, alias quod, doloremque dolorum eveniet rerum dolore dolores. 
                     Repellendus sint quo provident sequi velit, debitis, nulla inventore laboriosam voluptas 
-                    aliquid repellat magni ab rerum, optio tenetur quam nesciunt non ad ut maiores consequuntur id? Modi!!</p>
+                    aliquid repellat magni ab rerum, optio tenetur quam nesciunt non ad ut maiores consequuntur id? Modi!</p>
             </section>
         </div>
-        <aside>
-            <section>
-                <h1>News</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
+        <aside class="aside">
+            <section class="aside-content">
+                <h1 class="aside-content__title">News</h1>
+                <p class="aside-contenttext__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
                     voluptatibus impedit asperiores harum, accusamus omnis nostrum veritatis dignissimos 
                     officiis labore minima iure officia quisquam a. Deserunt, molestiae vitae dignissimos 
                     eius beatae placeat, alias quod, doloremque dolorum eveniet rerum dolore dolores.</p>
             </section>
-            <section>
-                <h1>News</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
+            <section class="aside-content">
+                <h1 class="aside-content__title">News</h1>
+                <p class="aside-contenttext__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
                     voluptatibus impedit asperiores harum, accusamus omnis nostrum veritatis dignissimos 
                     officiis labore minima iure officia quisquam a. Deserunt, molestiae vitae dignissimos 
                     eius beatae placeat, alias quod, doloremque dolorum eveniet rerum dolore dolores.</p>
             </section>
-            <section>
-                <h1>News</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
+            <section class="aside-content">
+                <h1 class="aside-content__title">News</h1>
+                <p class="aside-contenttext__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
                     voluptatibus impedit asperiores harum, accusamus omnis nostrum veritatis dignissimos 
                     officiis labore minima iure officia quisquam a. Deserunt, molestiae vitae dignissimos 
                     eius beatae placeat, alias quod, doloremque dolorum eveniet rerum dolore dolores.</p>
             </section>
-            <section>
-                <h1>News</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
+            <section class="aside-content">
+                <h1 class="aside-content__title">News</h1>
+                <p class="aside-contenttext__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
+                    voluptatibus impedit asperiores harum, accusamus omnis nostrum veritatis dignissimos 
+                    officiis labore minima iure officia quisquam a. Deserunt, molestiae vitae dignissimos 
+                    eius beatae placeat, alias quod, doloremque dolorum eveniet rerum dolore dolores.</p>
+            </section>
+            <section class="aside-content">
+                <h1 class="aside-content__title">News</h1>
+                <p class="aside-contenttext__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, at nulla repellendus 
                     voluptatibus impedit asperiores harum, accusamus omnis nostrum veritatis dignissimos 
                     officiis labore minima iure officia quisquam a. Deserunt, molestiae vitae dignissimos 
                     eius beatae placeat, alias quod, doloremque dolorum eveniet rerum dolore dolores.</p>
             </section>
         </aside>
-        <a class="topButton hide" href="#top">&#8679;</a>
+        <a class="button-top hide" href="#top">&#8679;</a>
     </main>
-    <footer>
-        <span>Minsk, 2019</span>
+    <footer class="footer">
+        <span class="footer-content">Minsk, 2019</span>
     </footer>
     <script src="./script/script.js"></script>
 </body>
