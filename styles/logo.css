@@ -1,21 +1,9 @@
-.header__logo path {
-    animation: line-anim 2s linear forwards;
+.header__logo{
+   fill: #ffffff;
 }
-
-.header__logo path:nth-child(1){
-    animation: line-anim 2s linear forwards;
-    animation: color-anim 5s linear infinite 2s;
+.header__logo:hover{
+    animation: color-anim 5s linear infinite;
 }
-
-@keyframes line-anim{
-   from{
-        fill: transparent;    
-    }
-    to{
-        fill: #ffffff;    
-    }
-}
-
 @keyframes color-anim{
     0%{
         fill: #FECB94;    

@@ -93,9 +93,13 @@ html {
   position: fixed;
   bottom: 50px;
   right: 50px;
-  font-size: 2em;
-  color: #ffffff;
-  text-decoration: none;
+  fill: #ffffff;
+  opacity: .5;
+}
+.button-top:hover {
+  fill: #ff0404;
+  opacity: 1;
+
 }
 .hide {
   display: none;
