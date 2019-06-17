@@ -19,7 +19,7 @@
     text-align: center;
     margin: 5px auto;
   }
-  .header__navigation-menu li {
+  .header__navigation-menu-item {
     display: inline-block;
     width: 100%;
     color: #ffffff;
@@ -27,8 +27,8 @@
     border: 1px solid #ffffff;
     padding: 5px 0;
   }
-  .header__navigation-menu a {
-    font-size: 20px;
+  .header__navigation-menu-link {
+    font-size: 0.8em;
   }
 
 /* -------------  menu button ---------------- */
@@ -41,7 +41,7 @@
     top:20px;
     right: 10px;
   }   
-  .header__menu-icon span {
+  .header__menu-icon-item {
     display: block;
     position: absolute;
     height: 6px;
@@ -53,27 +53,27 @@
     transform: rotate(0deg);
     transition: .25s ease-in-out;
   }   
-  .header__menu-icon span:nth-child(1) {
+  .header__menu-icon-item:nth-child(1) {
     top: 0px;
   }   
-  .header__menu-icon span:nth-child(2), .header__menu-icon span:nth-child(3) {
+  .header__menu-icon-item:nth-child(2), .header__menu-icon-item:nth-child(3) {
     top: 13px;
   }   
-  .header__menu-icon span:nth-child(4) {
+  .header__menu-icon-item:nth-child(4) {
     top: 26px;
   }  
-  .header__menu-icon__open span:nth-child(1) {
+  .header__menu-icon__open .header__menu-icon-item:nth-child(1) {
     top: 18px;
     width: 0%;
     left: 50%;
   }    
-  .header__menu-icon__open span:nth-child(2) {
+  .header__menu-icon__open .header__menu-icon-item:nth-child(2) {
     transform: rotate(45deg);
   }  
-  .header__menu-icon__open span:nth-child(3) {
+  .header__menu-icon__open .header__menu-icon-item:nth-child(3) {
     transform: rotate(-45deg);
   }    
-  .header__menu-icon__open span:nth-child(4) {
+  .header__menu-icon__open .header__menu-icon-item:nth-child(4) {
     top: 18px;
     width: 0%;
     left: 50%;
@@ -91,7 +91,7 @@
     display: none;
   }
   .main-content__text {
-    font-size: 14px;
+    font-size: 0.6em;
     margin: 0 10px ;
   }
 
@@ -107,7 +107,7 @@
 /* ------------- footer section ---------------- */
 
   .footer{
-    font-size: 14px;
+    font-size: 0.6em;
     height: 40px;
     line-height: 40px;
   }    
