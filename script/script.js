@@ -7,7 +7,7 @@ window.onscroll = function() {
 
 document.querySelector('.header__menu-icon').addEventListener('click', function(e) {
     e.preventDefault;
-    document.querySelector('.header__menu-icon').classList.toggle('header__menu-icon__open');
+    document.querySelector('.header__menu-icon').classList.toggle('header__menu-icon--open');
     document.querySelector('.header__navigation').classList.toggle('show');
 });
 
